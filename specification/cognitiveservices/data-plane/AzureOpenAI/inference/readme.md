@@ -272,5 +272,13 @@ input-file: preview/2024-09-01-preview/inference.json
 These settings apply only when `--tag=release_2024_10_01_preview` is specified on the command line.
 
 ``` yaml $(tag) == 'release_2024_10_01_preview'
-input-file: preview/2024-09-01-preview/inference.json
+input-file: preview/2024-10-01-preview/inference.json
+```
+
+
+## AzureOpenAI 2024-11-01-preview
+These settings apply only when `--tag=release_2024_11_01_preview` is specified on the command line.
+
+``` yaml $(tag) == 'release_2024_11_01_preview'
+input-file: preview/2024-11-01-preview/inference.json
 ```
