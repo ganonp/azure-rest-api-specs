@@ -2073,6 +2073,9 @@ components:
             protected_material_text:
               $ref: "#/components/schemas/contentFilterDetectedResult"
         - properties:
+            protected_material_image:
+              $ref: "#/components/schemas/contentFilterDetectedResult"
+        - properties:
             protected_material_code:
               $ref: "#/components/schemas/contentFilterDetectedWithCitationResult"
         - properties:
